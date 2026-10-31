@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Media\BS Star Wings.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Media\Arrow Left.png" />
+    <None Remove="Media\Arrow Right.png" />
+    <None Remove="Media\Bgr Icons.png" />
+    <None Remove="Media\Bgr.png" />
+    <None Remove="Media\Blue Button Long.png" />
+    <None Remove="Media\BS Star Wings.ico" />
+    <None Remove="Media\Green Button Add.png" />
+    <None Remove="Media\Header Button Back.png" />
+    <None Remove="Media\Header Button Home.png" />
+    <None Remove="Media\LilitaOne-Regular.ttf" />
+    <None Remove="Media\NAILS.png" />
+    <None Remove="Media\Progress Leftslice.png" />
+    <None Remove="Media\Progress Midslice.png" />
+    <None Remove="Media\Progress Rightslice.png" />
+    <None Remove="Media\Progress Stencil Leftslice.png" />
+    <None Remove="Media\Progress Stencil Midslice.png" />
+    <None Remove="Media\Progress Stencil Rightslice.png" />
+    <None Remove="Media\Red Button.png" />
+    <None Remove="Media\Textbox Area Leftslice.png" />
+    <None Remove="Media\Textbox Area Midslice.png" />
+    <None Remove="Media\Textbox Area Rightslice.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Media\BS Star Wings.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Imazen.WebP" Version="11.0.0" />
+    <PackageReference Include="Imazen.WebP.NativeRuntime.win-x64" Version="1.6.1" />
+    <PackageReference Include="NAudio" Version="3.3.0" />
+    <PackageReference Include="NAudio.Vorbis" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Media\Arrow Left.png" />
+    <Resource Include="Media\Arrow Right.png" />
+    <Resource Include="Media\Bgr Icons.png" />
+    <Resource Include="Media\Bgr.png" />
+    <Resource Include="Media\Blue Button Long.png" />
+    <Resource Include="Media\BS Star Wings.ico" />
+    <Resource Include="Media\Green Button Add.png" />
+    <Resource Include="Media\Header Button Back.png" />
+    <Resource Include="Media\Header Button Home.png" />
+    <Resource Include="Media\LilitaOne-Regular.ttf" />
+    <Resource Include="Media\NAILS.png" />
+    <Resource Include="Media\Progress Leftslice.png" />
+    <Resource Include="Media\Progress Midslice.png" />
+    <Resource Include="Media\Progress Rightslice.png" />
+    <Resource Include="Media\Progress Stencil Leftslice.png" />
+    <Resource Include="Media\Progress Stencil Midslice.png" />
+    <Resource Include="Media\Progress Stencil Rightslice.png" />
+    <Resource Include="Media\Red Button.png" />
+    <Resource Include="Media\Textbox Area Leftslice.png" />
+    <Resource Include="Media\Textbox Area Midslice.png" />
+    <Resource Include="Media\Textbox Area Rightslice.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SFX\sfx_btnclick.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SFX\snd_splat.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

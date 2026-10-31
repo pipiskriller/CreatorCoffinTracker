@@ -1,0 +1,17 @@
+Displays how much players used code <CREATOR_CODE>
+https://ingame-webviews.supercell.com/brawlstars/data/cauldron-muse-joins/<CREATOR_CODE>.json
+
+eg: https://ingame-webviews.supercell.com/brawlstars/data/cauldron-muse-joins/kairos.json
+
+
+Displays tracker data for creator code <CREATOR_CODE> (1)
+https://ingame-webviews.supercell.com/brawlstars/cauldron-muse/creators/<CREATOR_CODE>.json
+
+eg: https://ingame-webviews.supercell.com/brawlstars/cauldron-muse/creators/kairos.json
+
+(K-A-I-R-O-S, code Kairos in the Brawl Stars shop!)
+
+
+To view tracker data, use:
+https://ingame-webviews.supercell.com/brawlstars/data/tracker-<TRACKER_DATA_NAME>.json
+where TRACKER_DATA_NAME is given in (1).
